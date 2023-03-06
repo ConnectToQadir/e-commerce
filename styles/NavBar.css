@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 30px;
+    background-color: hsla(0,0%,100%,.8);
+    backdrop-filter:saturate(180%) blur(5px);
+    position: sticky;
+    top:0;
+    border-bottom: 1px solid rgba(134,134,139,.4);
+}
+
+nav .logo img{
+    width: 130px;
+}
+
+nav ul{
+    display: flex;
+    align-content: center;
+}
+
+nav ul li a{
+    color:#555;
+    padding:5px 8px;
+    margin-left: 3px;
+}
+
+nav ul li a:hover{
+    color:#000;
+}
